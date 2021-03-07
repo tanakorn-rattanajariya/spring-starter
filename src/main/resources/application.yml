@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-starter
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+    platform: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
+server:
+  port: 8300
+  servlet:
+    context-path: /api/smsdrw
